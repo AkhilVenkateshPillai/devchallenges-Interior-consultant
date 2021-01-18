@@ -33,7 +33,80 @@ nav>.nav-wrapper>ul>li{
     margin: 40px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+}
+
+nav>.nav-wrapper>ul>li:hover{
+    font-weight: bold;
+}
+
+.image-display{
+    width: 821.11px;
+    height: 586.53px;
+    background: url(/images/photo1.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card{
+ 
+  
+   margin: auto;
+   position: relative;
+   top: 530px;
+   left:190px ;
+   width: 300px;
+   height: 138px;
+
+
+background: #181719;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-pic{
+    width: 55px;
+    height: 55px;
+    border-radius:50%;
+
+}
+table{
+    margin: auto auto auto 20px;
+    width: 60%;
+}
+
+.pname{
+    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 17px;
+}
+
+.pdesig{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+color: #828282;
+}
+
+.pcontent{
+    font-family: Lora;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+max-width: 70%;
+margin:10px ;
 }
