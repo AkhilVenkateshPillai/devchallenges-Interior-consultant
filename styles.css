@@ -8,6 +8,7 @@ body{
     max-width: 70%;
     margin: auto;
     padding-top: 30px;
+   
 }
 
 .nav-wrapper{
@@ -30,7 +31,7 @@ body{
 
 nav>.nav-wrapper>ul>li{
     display: inline;
-    margin: 40px;
+    margin-left: 110px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -40,6 +41,26 @@ nav>.nav-wrapper>ul>li{
 
 nav>.nav-wrapper>ul>li:hover{
     font-weight: bold;
+}
+
+.container-one>h1{
+    
+font-family: Lora;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+margin-right: 90px;
+}
+
+.container-one>p{
+width: 400px;
+text-align:left;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
 }
 
 .image-display{
@@ -54,16 +75,23 @@ nav>.nav-wrapper>ul>li:hover{
 .main-container{
     display: flex;
     justify-content: center;
+    margin-top: 200px;
+    float: right;
+}
+
+.container-two{
+float:right;
+
 }
 
 .profile-card{
  
-  
+  padding: .5rem;
    margin: auto;
    position: relative;
    top: 530px;
-   left:190px ;
-   width: 300px;
+   left:170px ;
+   width: 400px;
    height: 138px;
 
 
@@ -72,14 +100,16 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .profile-pic{
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     border-radius:50%;
 
 }
 table{
     margin: auto auto auto 20px;
     width: 60%;
+    height: 30%;
+    
 }
 
 .pname{
@@ -87,7 +117,7 @@ table{
     font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
+font-size: 14px;
 line-height: 17px;
 }
 
@@ -95,7 +125,7 @@ line-height: 17px;
     font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
+font-size: 14px;
 line-height: 15px;
 color: #828282;
 }
@@ -107,6 +137,19 @@ font-weight: bold;
 font-size: 20px;
 line-height: 31px;
 color: #FFFFFF;
+max-width: 50%;
+margin: 0 0 0 10px;
+}
+
+
+footer{
 max-width: 70%;
-margin:10px ;
+margin: 1100px auto 50px auto;
+text-align: center;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #A9A9A9;
 }
