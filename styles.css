@@ -3,9 +3,10 @@
 
 
 body{
+    width: 95%;
+    max-width: 1400px;
     background-color: black;
     color: white;
-    width: 70%;
     margin: auto;
     padding-top: 30px;
    
@@ -19,8 +20,8 @@ body{
     border: 2px solid white;
     padding: .5rem;
     text-align: center;
-    max-width: 100px;
-    margin: auto auto auto 100px;
+    width: 100px;
+    margin: auto auto auto 0;
     font-family: Crimson Pro;
     font-style: normal;
     font-weight: 200;
@@ -31,7 +32,7 @@ body{
 
 nav>.nav-wrapper>ul>li{
     display: inline;
-    margin-left: 110px;
+   padding-right: 44px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -43,6 +44,14 @@ nav>.nav-wrapper>ul>li:hover{
     font-weight: bold;
 }
 
+.main-container{
+   
+    margin:200px auto 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
 .container-one>h1{
     
 font-family: Lora;
@@ -50,11 +59,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 48px;
 line-height: 61px;
-margin-right: 90px;
+
 }
 
 .container-one>p{
-max-width: 400px;
+width: 400px;
 text-align:left;
 font-family: Montserrat;
 font-style: normal;
@@ -63,36 +72,38 @@ font-size: 24px;
 line-height: 29px;
 }
 
-.image-display{
-    width: 821.11px;
-    height: 586.53px;
-    background: url(/images/photo1.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+.container-one>a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    }
+
+img{
+ width:821px;
+ float:right;
 }
-.main-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    float: right;
-}
+
+
 
 .container-two{
-float:right;
-
+    width: inherit;
+    width: 100%;
+    
 }
 
 .profile-card{
+
  
-  padding: .5rem;
+   padding: .5rem;
    margin: auto;
-   position: relative;
-   top: 530px;
-   left:170px ;
-   width: 400px;
-   height: 138px;
+   position: absolute;
+   top: 815px;
+   left:1490px ;
+   width: 450px;
+  
 
 
 background: #181719;
@@ -103,10 +114,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 65px;
     height: 65px;
     border-radius:50%;
+    float:left;
 
 }
 table{
-    margin: auto auto auto 20px;
+    padding: 4px 2px 8px 20px;
     width: 60%;
     height: 30%;
     
@@ -114,7 +126,7 @@ table{
 
 .pname{
     
-    font-family: Montserrat;
+font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -122,7 +134,7 @@ line-height: 17px;
 }
 
 .pdesig{
-    font-family: Montserrat;
+font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -131,20 +143,21 @@ color: #828282;
 }
 
 .pcontent{
-    font-family: Lora;
+font-family: Lora;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 24px;
 line-height: 31px;
 color: #FFFFFF;
-max-width: 50%;
+width: 50%;
+height:70px;
 margin: 0 0 0 10px;
 }
 
 
 footer{
-max-width: 70%;
-margin: 1100px auto 50px auto;
+width: 70%;
+margin: 300px auto 50px auto;
 text-align: center;
 font-family: Montserrat;
 font-style: normal;
