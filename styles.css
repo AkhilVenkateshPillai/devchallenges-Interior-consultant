@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+}
+
+.nav-wrapper{
+    display: flex;
+}
+
+.navbar-logo{
+    width: 50px;
+    margin: auto auto auto 100px;
+}
+
+li{
+    display: inline;
+    margin: 40px;
+}
