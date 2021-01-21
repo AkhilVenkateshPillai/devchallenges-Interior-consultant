@@ -35,9 +35,9 @@ body{
     text-transform: uppercase;
 }
 
-nav>.nav-wrapper>ul>li{
+nav>.nav-wrapper>.navbar-elements>a{
     display: inline;
-   padding-right: 44px;
+    padding-right: 44px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -45,8 +45,23 @@ nav>.nav-wrapper>ul>li{
     line-height: 22px;
 }
 
-nav>.nav-wrapper>ul>li:hover{
+nav>.nav-wrapper>.navbar-elements>a:hover{
     font-weight: bold;
+}
+
+.container-page>nav>.nav-wrapper{
+    display: block;
+    float: right;
+}
+
+
+label{
+    display: none;
+    font-size: 30px;
+}
+
+#toggle{
+    display: none;
 }
 
 .main-container{
@@ -113,13 +128,13 @@ header{
 
 .profile-card{
 
-   
    padding: .5rem;
    margin: auto;
    position: absolute;
    top:70%;
-   left:65% ;
-   width: 450px;
+   left:59% ;
+   width: 530px;
+   max-width: 100%;
    height: auto;
    transition: 0.5s;
   
@@ -133,7 +148,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 65px;
     height: 65px;
     border-radius:50%;
-    max-width: 100%;
     max-width: 100%;
    
 
@@ -185,9 +199,41 @@ color: #A9A9A9;
 
 @media screen and (max-width:1500px){
 
+.container-page>nav>.nav-wrapper{
+        display: none;
+        float: right;
+        width: 100%;
+    }
+
+.container-page>nav>label{
+     display: block;
+     float: right;
+     cursor: pointer;
+ }
+
+ .container-page>nav>.nav-wrapper>.navbar-elements>a{
+    display: block;
+    text-align: center;
+    padding:40px;
+    width: 50%;
+    margin: auto;
+ }
+
+
+ #toggle:checked + .nav-wrapper{
+    display: block;
+
+}
+
+#toggle:checked + .main-container{
+    display: none;
+
+}
+
   .container-page{
+      width: 100%;
       max-width: 100%;
-      margin: 0 30px;
+      margin: 0;
   }
   .main-container{
 
@@ -202,6 +248,8 @@ color: #A9A9A9;
     max-width: 100%;
       
   }
+
+  
 
 
   .container-two{
@@ -219,17 +267,17 @@ color: #A9A9A9;
 
   .container-two>.image-holder>img{
    
-    margin: 20px;
-    width: 70%;
+    margin: 0;
+    width: 100%;
     max-width: 100%; 
   }
 
   .container-two>.image-holder>.profile-card{
     position: relative;
-    left: 20%;
-    top:-15%;
+    left: 10%;
+    top:-10%;
     margin: 17px;
-    width: 30%;
+    width: 70%;
     max-width: 100%;
     
   }

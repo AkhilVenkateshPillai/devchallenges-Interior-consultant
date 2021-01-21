@@ -11,14 +11,16 @@
 
   <div class="container-page">
     <nav>
+      <a class="navbar-logo">This Interior</a>
+      <label class = "navlable" for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" onclick="disable()">
       <div class="nav-wrapper">
-        <a class="navbar-logo">This Interior</a>
-        <ul class="navbar-elements">
-          <li>Home</li>
-          <li>Collections</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+        <div class="navbar-elements">
+          <a>Home</a>
+          <a>Collections</a>
+          <a>About</a>
+          <a>Contact</a>
+        </div>
       </div>
     </nav>
   
@@ -61,12 +63,12 @@
 
    </div>
 
-   <footer>
+   <footer class="footer">
       Akhil Venkatesh @ DevChallenges.io
     </footer>  
   </div>
    
-
+<script src="/app.js"></script>
 </body>
 
 </html>
