@@ -131,9 +131,9 @@ header{
    padding: .5rem;
    margin: auto;
    position: absolute;
-   top:70%;
+   top:68%;
    left:59% ;
-   width: 530px;
+   width: 38%;
    max-width: 100%;
    height: auto;
    transition: 0.5s;
@@ -197,7 +197,7 @@ line-height: 17px;
 color: #A9A9A9;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1000px){
 
 .container-page>nav>.nav-wrapper{
         display: none;
@@ -222,11 +222,6 @@ color: #A9A9A9;
 
  #toggle:checked + .nav-wrapper{
     display: block;
-
-}
-
-#toggle:checked + .main-container{
-    display: none;
 
 }
 
