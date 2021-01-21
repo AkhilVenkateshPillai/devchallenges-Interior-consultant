@@ -201,7 +201,15 @@ color: #A9A9A9;
     display: none;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1300px){
+    .profile-card{
+
+        top:63%;
+
+    }   
+}
+
+@media screen and (max-width:1000px){
 
 .container-page>nav>.nav-wrapper{
         display: none;
